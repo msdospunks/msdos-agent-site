@@ -3,40 +3,77 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <!-- Virtuals site verification (genau so lassen) -->
+  <!-- WICHTIG: Virtuals Verifikation NICHT ändern -->
   <meta name="virtual-protocol-site-verification" content="c0c513f73b461f979ad6e885abf6655f" />
-
-  <title>MS-DOS Punks Agent • Verification</title>
+  <title>MS-DOS Punks Agent — $DOSP</title>
   <style>
-    :root { --bg:#0b0f14; --fg:#3cff8f; --muted:#79ffc3; }
-    html, body {
-      margin: 0; height: 100%;
-      background: var(--bg); color: var(--fg);
-      font: 16px/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    :root { --green:#00ff66; --bg:#000; }
+    * { box-sizing:border-box; }
+    html,body { margin:0; padding:0; background:var(--bg); color:var(--green); font:16px/1.5 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .wrap { max-width:860px; margin:0 auto; padding:56px 20px; }
+    h1, h2 { margin:0 0 .75rem; letter-spacing:.5px; }
+    h1 { font-size:28px; }
+    h2 { font-size:18px; opacity:.9; }
+    p, li, code { font-size:15px; }
+    .kbd { display:inline-block; padding:.15rem .35rem; border:1px solid var(--green); margin:0 .15rem; }
+    .box { border:1px solid var(--green); padding:24px; background:rgba(0,255,102,.03); }
+    .muted { opacity:.8; }
+    a { color:var(--green); text-decoration:underline; }
+    .row { display:grid; grid-template-columns: 1fr; gap:18px; }
+    @media (min-width:700px){ .row{ grid-template-columns: 1.2fr .8fr; } }
+    .btn {
+      display:inline-block; margin-top:10px; padding:10px 16px; border:1px solid var(--green);
+      text-decoration:none; color:var(--green);
     }
-    .wrap {
-      max-width: 760px; margin: 10vh auto; padding: 32px 28px;
-      border: 1px solid rgba(60,255,143,.35);
-      border-radius: 12px;
-      background: linear-gradient(180deg, rgba(60,255,143,.05), rgba(60,255,143,.02));
-      box-shadow: 0 0 40px rgba(60,255,143,.06) inset;
-    }
-    h1 { margin: 0 0 10px; font-size: 28px; letter-spacing: .4px; }
-    p { margin: .35rem 0; color: var(--muted); }
-    a { color: var(--fg); text-decoration: none; border-bottom: 1px dashed rgba(60,255,143,.5); }
-    code { background: rgba(60,255,143,.08); padding: 2px 6px; border-radius: 6px; }
-    .blink { animation: blink 1.15s steps(2, start) infinite; }
-    @keyframes blink { to { visibility: hidden; } }
+    .hr { height:1px; background:linear-gradient(90deg, transparent, var(--green), transparent); margin:22px 0; }
+    .mono { white-space:pre-wrap; }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>MS-DOS Punks Agent</h1>
-    <p><span class="blink">▌</span> Verification page for <strong>Virtuals</strong>.</p>
-    <p>Status: <code>READY</code> — $DOSP token & weekly holder distributions coming soon.</p>
-    <p>Follow on X: <a href="https://x.com/MSDOSPunksAgent" target="_blank" rel="noopener">@MSDOSPunksAgent</a></p>
-    <p>Collection: <a href="https://opensea.io/collection/ms-dos-punks/overview" target="_blank" rel="noopener">MS-DOS Punks</a></p>
+    <div class="box">
+      <h1>C:\&gt; MS-DOS Punks Agent</h1>
+      <h2>$DOSP — Weekly rewards for MS-DOS Punks holders</h2>
+
+      <div class="row">
+        <div>
+          <p><span class="kbd">NEW</span> Wöchentliche Token-Ausschüttung für <b>MS-DOS Punks NFT</b> Holder.</p>
+          <ul>
+            <li><b>1 Punk = 1 Anteil</b> (mehr Punks ⇒ mehr $DOSP).</li>
+            <li><b>Snapshot</b> einmal pro Woche, automatisch durch den Agent.</li>
+            <li><b>Claim</b> über die offizielle Claim-Seite (Link folgt nach Launch).</li>
+            <li><b>50 %</b> des $DOSP-Supply liegen im Agent-Treasury für laufende Rewards & Quests.</li>
+          </ul>
+
+          <div class="hr"></div>
+
+          <p class="mono">
+Collection (MS-DOS Punks)  
+Contract: 0x3810acc338a6654275cb70d37748a68186cee960
+          </p>
+
+          <!-- Platzhalter-Buttons: Den CLAIM-Link tauschen wir nach dem Virtuals-Launch aus -->
+          <a class="btn" href="#" aria-disabled="true">Claim $DOSP (soon)</a>
+          <a class="btn" href="https://x.com/MSDOSPunksAgent" target="_blank" rel="noopener">Follow @MSDOSPunksAgent</a>
+        </div>
+
+        <div>
+          <p class="muted"><b>Status</b></p>
+          <ul class="muted">
+            <li>Agent live &amp; verifiziert ✅</li>
+            <li>Genesis/Launch: in Vorbereitung</li>
+            <li>Distribution: wöchentlich, pro NFT gewichtet</li>
+          </ul>
+
+          <p class="muted"><b>Hinweis</b></p>
+          <p class="muted">Bitte folge dem Agent auf X, dort kommen alle Updates, Snapshot-Ankündigungen und der Claim-Link.</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="muted" style="margin-top:14px">
+      C:\&gt; Type <span class="kbd">help</span> for updates — MS-DOS vibes only.
+    </p>
   </div>
 </body>
 </html>
